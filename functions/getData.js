@@ -7,9 +7,7 @@ exports.handler = function (event, context, callback) {
     const msg = {
       replies: [
         {
-          message: `Confirmed cases *${summary.total}* ✅ \n
-          Deaths *${summary.deaths}* 🏴‍☠️\n
-          Recovered *${summary.discharged}* 🥳`,
+          message: `Confirmed *${summary.total}* 🏥 \nDeaths *${summary.deaths}* 🏴‍☠️\nRecovered *${summary.discharged}* 🥳`,
         },
       ],
     };
