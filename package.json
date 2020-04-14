@@ -1,0 +1,16 @@
+{
+  "name": "netlify-lambda-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-buld": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
